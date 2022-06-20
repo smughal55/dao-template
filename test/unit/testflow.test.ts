@@ -4,6 +4,7 @@ import {
   TimeLock,
   Box,
 } from "../../typechain-types";
+// @ts-ignore
 import { deployments, ethers } from "hardhat";
 import { assert, expect } from "chai";
 import {
